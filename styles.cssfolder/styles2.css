@@ -1,0 +1,139 @@
+
+a {
+    text-decoration:none;
+    }
+    :root {
+        --logo-color:#4D5AE5;
+        --navyblue:#2E2F42;
+        --main-font: Roboto, sans-serif;
+        --white:#FFFFFF;
+        --ocean:#404BBF; 
+        --cloud:#F4F4FD;
+        --additional-info:#434455;
+        --style:normal;
+    }
+    
+    body {
+    background-color: var(--white);
+    font-family: var(--main-font);
+    font-style: var(normal);
+    }
+    
+    .header-menu-list {
+        list-style: none;
+    }
+    .address-menu-list {
+        list-style: none;
+    }
+    .benefit-list {
+        list-style:none;
+    }
+    .concept-list {
+        list-style:none;
+    }
+    .team-list {
+        list-style:none;
+    }
+    .section-menu-list {
+        list-style:none;
+    }
+
+    .functional-menu-list{
+        list-style: none;
+    }
+
+
+    .header-logo-link {
+        color: var(--navyblue);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .header-logo-first{
+        color: var(--logo-color);
+        font-family: Raleway,sans-serif; 
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+    .header-menu-link {
+        color: var(--navyblue);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    .adress-menu-contacts-item {
+        color: var(--additional-info);
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .section-menu-btn-special{
+        background-color: var(--ocean);
+        color: var(--white);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+    }
+
+    .section-menu-btn {
+        background-color: var(--cloud);
+        color: var(--logo-color);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+    }
+    
+    .functional-menu-item{
+        color: var(--navyblue);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+    .functional-info {
+    color: var(--additional-info);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+    footer {
+        background-color: var(--navyblue);
+        color: var(--white);
+        font-family: 
+    }
+    
+    .footer-logo-link{
+        color: var(--white);
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+    .footer-logo-first{
+    color: var(--logo-color);
+    font-family: Raleway,sans-serif; 
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
