@@ -1,48 +1,42 @@
+
 a {
     text-decoration:none;
     }
-    :root {
+    :root{
         --logo-color:#4D5AE5;
         --navyblue:#2E2F42;
         --main-font: Roboto, sans-serif;
         --white:#FFFFFF;
+        --hover-focus-color: #404bbf;
+        --cloud:#F4F4FD;
         --additional-info:#434455;
         --style:normal;
     }
     
     body {
     background-color: var(--white);
+    color: var(--additional-info);
     font-family: var(--main-font);
     font-style: var(normal);
     }
     
-    .header-menu-list {
+    .list {
         list-style: none;
     }
-    .address-menu-list {
-        list-style: none;
-    }
-    .benefit-list {
-        list-style:none;
-    }
-    .concept-list {
-        list-style:none;
-    }
-    .team-list {
-        list-style:none;
-    }
+
+
     .header-logo-link {
-        color: var(--navyblue);
+        color: var(--logo-color);
         font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 800;
-        line-height: 1.16;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }
-    .header-logo-first{
-        color: var(--logo-color);
+    .header-logo-second {
+        color: var(--navyblue);
         font-family: Raleway,sans-serif; 
     font-size: 18px;
     font-weight: 800;
@@ -57,7 +51,16 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-    .adress-menu-contacts-item {
+    .header-menu-link:hover,
+    .header-menu-link:focus {
+        color: var(--hover-focus-color);
+    }
+
+    .link: {
+        text-decoration:none;
+    }
+    .addres-menu-contacts,
+    .address-menu-contacts-item {
         color: var(--additional-info);
         font-style: normal;
         font-size: 16px;
@@ -65,72 +68,60 @@ a {
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
-    
-    .hero-main{
-    background-color: var(--navyblue);
+
+    .address-menu-contacts-item:hover,
+    .address-menu-contacts-item:focus {
+        color: var(--hover-focus-color);
     }
-    .hero-main-logo{
+
+    .portfolio-menu {
+        display: none;
+    }
+    .section-menu-btn-special{
+        background-color: var(--hover-focus-color);
         color: var(--white);
-        text-align: center;
         font-family: Roboto;
-        font-size: 56px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 1.03;
-        letter-spacing: 0.02em
-    }
-    
-    .hero-main-btn {
-    background-color: var(--logo-color);
-    color: var(--white);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    }
-    .benefit-title {
-        color: var(--navyblue);
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
-    .benefit-item {
-        color: var(--additional-info);
         font-size: 16px;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+    }
+
+    .section-menu-btn-special:hover,
+    .section-menu-btn-special:focus {
+    color: var(--white);
+    background-color: var(--hover-focus-color);
+    }
+
+    .section-menu-btn {
+        background-color: var(--cloud);
+        color: var(--logo-color);
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
     }
     
-    .concept-title {
-     color: var(--navyblue);
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em; 
-    text-transform: capitalize;
-    }
     
-    .team-item{
+    .functional-menu-item{
         color: var(--navyblue);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
     }
-    
-    .team-info{
+    .functional-info {
     color: var(--additional-info);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
-    
     footer {
         background-color: var(--navyblue);
         color: var(--white);
@@ -149,7 +140,7 @@ a {
     }
     .footer-logo-first{
     color: var(--logo-color);
-    font-family: Raleway, sans-serif; 
+    font-family: Raleway,sans-serif; 
     font-size: 18px;
     font-weight: 800;
     line-height: 1.16;
