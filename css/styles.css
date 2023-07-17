@@ -13,7 +13,7 @@ a {
     --style: normal;
 }
 
-body {
+.body-page-one {
     background-color: var(--white);
     color: var(--additional-info);
     font-family: var(--main-font);
@@ -181,7 +181,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
     }
-    .footer-logo-second{
+    .footer-logo-second {
     color: var(--white);
     font-family: Raleway, sans-serif; 
     font-size: 18px;
@@ -190,3 +190,129 @@ body {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     }
+    
+/* Portfolio page */ 
+
+    .body-page-two {
+        background-color: var(--white);
+        color: var(--additional-info);
+        font-family: var(--main-font);
+        font-style: var(normal);
+        }
+        
+        .list {
+            list-style: none;
+        }
+    
+    
+        .header-portfolio-logo {
+            color: var(--logo-color);
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        .header-portfolio-second {
+            color: var(--navyblue);
+            font-family: Raleway,sans-serif; 
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        }
+        .header-portfolio-link {
+            color: var(--navyblue);
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
+        .header-portfolio-link:hover,
+        .header-portfolio-link:focus {
+            color: var(--hover-focus-color);
+        }
+    
+        .link: {
+            text-decoration:none;
+        }
+        .address-portfolio-contacts,
+        .address-portfolio-contacts-item {
+            color: var(--additional-info);
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+        }
+    
+        .address-portfolio-contacts-item:hover,
+        .address-portfolio-contacts-item:focus {
+            color: var(--hover-focus-color);
+        }
+    
+        .portfolio-menu {
+            display: none;
+        }
+        .portfolio-menu-btn-special{
+            background-color: var(--team-color);
+            color: var(--logo-color);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer;
+        }
+    
+        .portfolio-menu-btn-special:hover,
+        .portfolio-menu-btn-special:focus {
+        color: var(--white);
+        background-color: var(--hover-focus-color);
+        }
+    
+    
+        .functional-portfolio-item{
+            color: var(--navyblue);
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+        }
+        .functional-portfolio-info {
+        color: var(--additional-info);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        }
+        .footer-portfolio {
+            background-color: var(--navyblue);
+            color: var(--white);
+            font-family: 
+        }
+        
+        .footer-portfolio-logo {
+            color: var(--logo-color);
+            font-family: Raleway, sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        }
+        .footer-portfolio-logo-second {
+        color: var(--team-color);
+        font-family: Raleway,sans-serif; 
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        }
+    
