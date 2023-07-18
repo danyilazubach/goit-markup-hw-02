@@ -1,6 +1,6 @@
 
 :root {
-    --style: normal;
+    --style:'normal';
     --logo-color: #4D5AE5;
     --navyblue: #2E2F42;
     --main-font: Roboto, sans-serif;
@@ -67,7 +67,7 @@ a {
     }
 
     .address-menu-contacts-item {
-        font-style: normal;
+        font-style: var(--style);
         color: var(--additional-info);
         font-size: 16px;
         font-weight: 400;
@@ -77,7 +77,7 @@ a {
 
     .address-menu-contacts-item:hover,
     .address-menu-contacts-item:focus {
-        font-style: normal;
+        font-style: var(--style);
         color: var(--hover-focus-color);
 
     }
@@ -262,7 +262,7 @@ a {
         }
         .address-portfolio-contacts,
         .address-portfolio-contacts-item {
-            font-style: normal;
+            font-style: var(--style);
             color: var(--additional-info);
             font-style: var(--style);
             font-size: 16px;
@@ -273,7 +273,7 @@ a {
     
         .address-portfolio-contacts-item:hover,
         .address-portfolio-contacts-item:focus {
-            font-style: normal;
+            font-style: var(--style);
             color: var(--hover-focus-color);
     
         }
