@@ -1,6 +1,6 @@
 
 :root {
-    --style:'normal';
+    --style: normal;
     --logo-color: #4D5AE5;
     --navyblue: #2E2F42;
     --main-font: Roboto, sans-serif;
@@ -66,6 +66,9 @@ a {
         text-decoration:none;
     }
 
+    .adress-menu{
+        font-style: var(--style);
+    }
     .address-menu-contacts-item {
         font-style: var(--style);
         color: var(--additional-info);
@@ -257,9 +260,14 @@ a {
             color: var(--hover-focus-color);
         }
     
-        .link: {
+        .link:{
             text-decoration:none;
         }
+
+        .address-portfolio {
+            font-style: var(--style);
+        } 
+
         .address-portfolio-contacts,
         .address-portfolio-contacts-item {
             font-style: var(--style);
@@ -273,7 +281,6 @@ a {
     
         .address-portfolio-contacts-item:hover,
         .address-portfolio-contacts-item:focus {
-            font-style: var(--style);
             color: var(--hover-focus-color);
     
         }
