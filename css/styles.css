@@ -145,7 +145,7 @@ a {
     }
 
     .team-member{
-        color: var(--white);
+        background-color: var(--white);
     }
     .team-title {
     color: var(--navyblue);
