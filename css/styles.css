@@ -66,10 +66,9 @@ a {
         text-decoration:none;
     }
 
-    .address-menu-contacts,
     .address-menu-contacts-item {
         color: var(--additional-info);
-        font-style: normal;
+        font-style: var(--style);
         font-size: 16px;
         font-weight: 400;
         line-height: 1.5;
@@ -79,6 +78,7 @@ a {
     .address-menu-contacts-item:hover,
     .address-menu-contacts-item:focus {
         color: var(--hover-focus-color);
+        font-style: var(--style);
     }
     
     .hero-main {
@@ -195,6 +195,12 @@ a {
     text-transform: uppercase;
     }
 
+    .footer-paragraph {
+    color: var(--team-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    }
+
 /* Portfolio page */ 
 
     .body-page-two {
@@ -251,7 +257,7 @@ a {
         .address-portfolio-contacts,
         .address-portfolio-contacts-item {
             color: var(--additional-info);
-            font-style: normal;
+            font-style: var(--style);
             font-size: 16px;
             font-weight: 400;
             line-height: 1.5;
@@ -261,11 +267,10 @@ a {
         .address-portfolio-contacts-item:hover,
         .address-portfolio-contacts-item:focus {
             color: var(--hover-focus-color);
+            font-style: var(--style);
         }
     
-        .portfolio-menu {
-            display: none;
-        }
+    
         .portfolio-menu-btn-special{
             background-color: var(--team-color);
             color: var(--logo-color);
