@@ -152,10 +152,6 @@ a {
     text-transform: capitalize;
     }
 
-    .team-link {
-        background-color: var(--white);
-    }
-
     .team-item {
         background-color: var(--white);
         color: var(--navyblue);
