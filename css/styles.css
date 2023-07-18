@@ -1,5 +1,6 @@
 
 :root {
+    --style: normal;
     --logo-color: #4D5AE5;
     --navyblue: #2E2F42;
     --main-font: Roboto, sans-serif;
@@ -7,7 +8,6 @@
     --additional-info: #434455;
     --hover-focus-color: #404bbf;
     --team-color:#F4F4FD; 
-    --style: normal;
 }
 
 a {
@@ -151,6 +151,11 @@ a {
     text-align: center;
     text-transform: capitalize;
     }
+
+    .team-link {
+        background-color: var(--white);
+    }
+
     .team-item {
         background-color: var(--white);
         color: var(--navyblue);
